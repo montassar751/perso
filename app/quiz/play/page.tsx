@@ -197,7 +197,7 @@ export default function PlayQuizPage() {
                       <div>Questions:</div>
                       <div className="font-medium">{questions.length}</div>
                       <div>Time Limit:</div>
-                      <div className="font-medium">{timeLimit ? `${timeLimit} seconds` : "No limit"}</div>
+                      <div className="font-medium">{timeLimit ? `${timeLimit} seconds` : "Aucune limite"}</div>
                     </div>
                   </div>
                 </CardContent>
